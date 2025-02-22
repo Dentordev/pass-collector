@@ -9,7 +9,7 @@ use std::io::prelude::*;
 
 /// Simple Password collector for username:password lists
 #[derive(Parser, Debug)]
-#[command(version = "v0.0.2", about, long_about = None)]
+#[command(version = "v0.0.3", about, long_about = None)]
 struct Args {
     /// Files to input
     #[arg(num_args(0..))]
