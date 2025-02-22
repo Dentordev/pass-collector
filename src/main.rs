@@ -7,7 +7,7 @@ use std::io::prelude::*;
 
 
 
-/// Simple program to greet a person
+/// Simple Password collector for username:password lists
 #[derive(Parser, Debug)]
 #[command(version = "v0.0.2", about, long_about = None)]
 struct Args {
